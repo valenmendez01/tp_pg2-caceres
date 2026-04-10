@@ -19,5 +19,43 @@ public class Paquete <T>{
         return this.urgente || this.peso > 50;
     }
 
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
+    public void setDestino(String destino) {
+        this.destino = destino;
+    }
+
+    public boolean isUrgente() {
+        return urgente;
+    }
+
+    public void setUrgente(boolean urgente) {
+        this.urgente = urgente;
+    }
+
+    public T getContenido() {
+        return contenido;
+    }
+
+    public void setContenido(T contenido) {
+        this.contenido = contenido;
+    }
 }

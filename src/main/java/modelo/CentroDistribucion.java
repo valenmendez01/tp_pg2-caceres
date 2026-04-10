@@ -2,8 +2,15 @@ package modelo;
 
 import TDAs.iColaPrioridad;
 
+import java.util.PriorityQueue;
+
 public class CentroDistribucion {
-    private iColaPrioridad<Paquete<?>> cola;
+    private PriorityQueue<Paquete<?>> cola;
+
+    public CentroDistribucion() {
+        cola = new PriorityQueue<>();
+    }
+
 
 
 
