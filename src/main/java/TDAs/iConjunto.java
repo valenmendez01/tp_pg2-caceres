@@ -1,4 +1,4 @@
 package TDAs;
 
-public interface iConjunto {
+public interface iConjunto <T>{
 }
